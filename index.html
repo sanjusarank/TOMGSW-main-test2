@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEOLDMADRASGOLISODA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <a href="#home" class="logo">
+        <img src="src/img/homelogo.png" alt="Home">
+    </a>
+    <nav class="navbar">
+        <a href="#products">Products</a>
+        <a href="#ourstory">Our Story</a>
+        <a href="#findstore">Find Store</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+
+<!-- Home section -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>THE FUTURE OF SOCIAL DRINK IS HERE</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vel eum quae iure similique veniam nisi, maxime laboriosam, porro eaque magnam necessitatibus cupiditate perspiciatis, veritatis deserunt velit. Exercitationem, velit reprehenderit.</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+</section> <!-- Home section closed properly -->
+
+<!-- Products Section -->
+<section class="product-slider" id="products"> <!-- Added id "products" -->
+    <h2>Frozen <span>Drinks</span> to Cool You Down This Summer</h2>
+    <div class="slider">
+        <button class="slider-button left" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slides">
+            <div class="slide">
+                <img src="src/img/prodimg1.png" alt="Product 1">
+                <div class="product-info">
+                    <h3>Blueberry</h3>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="src/img/prodimg2.png" alt="Product 2">
+                <div class="product-info">
+                    <h3>Lemon</h3>
+                </div>
+            </div>
+            <div class="slide active">
+                <img src="src/img/prodimg3.png" alt="Product 3">
+                <div class="product-info">
+                    <h3>Paneer</h3>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="src/img/prodimg4.png" alt="Product 4">
+                <div class="product-info">
+                    <h3>Pineapple</h3>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="src/img/prodimg5.png" alt="Product 5">
+                <div class="product-info">
+                    <h3>Strawberry</h3>
+                </div>
+            </div>
+        </div>
+        <button class="slider-button right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<!-- Our Story -->
+<section class="our-story" id="ourstory">
+    <div class="container">
+        <!-- Center-aligned section header -->
+        <div class="section-header">
+            <h3>Our <span>Story</span></h3>
+        </div>
+        <div class="story-content">
+            <div class="story-box">
+                <h1 class="title"></h1>
+                <p>
+                    We are manufacturers of pet bottle goli soda in Chennai. We are also distributing our product across Tamilnadu either directly or through distributors. Goli Soda, a popular Indian term for carbonated beverages sold in pet bottles and glass bottles, has a nostalgic appeal that resonates with people of all ages.
+                    The Goli Soda business thrives on the timeless charm and growing demand for traditional carbonated beverages. With an increasing trend towards natural and artisanal products, Goli Soda stands out as a refreshing alternative to mainstream sodas. Additionally, the appeal of Goli Soda extends to events, parties, and restaurants, making it a versatile product for various occasions.
+                </p>
+            </div>
+            <div class="story-box image-box">
+                <div class="image">
+                    <img src="src/img/about-img.png" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Find Store Section -->
+<section id="findstore" class="find-section">
+    <h1 class="storeplace">FIND STORE</h1>
+</section>
+
+<!-- FAQ Section -->
+<!-- FAQ Section -->
+<section id="faq" class="faq-section">
+    <div class="container">
+        <h1 class="heading">FAQ</h1> <!-- FAQ heading remains centered at the top -->
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">Can I drink it on a daily basis? <span class="plus">+</span></button>
+                <div class="faq-answer">Yes, you can drink it daily as it is made with natural ingredients.</div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">How many flavours are there? <span class="plus">+</span></button>
+                <div class="faq-answer">We offer a variety of flavors including lemon, orange, and more.</div>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">Is Goli Soda suitable for children? <span class="plus">+</span></button>
+                <div class="faq-answer">Yes, Goli Soda is made with natural ingredients, making it suitable for all ages, including children.</div>
+            </div>
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">What is the shelf life of Goli Soda? <span class="plus">+</span></button>
+                <div class="faq-answer">The shelf life of Goli Soda is typically 6 months from the date of manufacture, if stored in a cool and dry place.</div>
+            </div>
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">Where can I buy Goli Soda? <span class="plus">+</span></button>
+                <div class="faq-answer">Goli Soda is available in select stores across Tamil Nadu and can also be purchased through our distributors.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Instagram Follow Section -->
+<section id="contact" class="instagram-section"> <!-- Changed id to "contact" to match the link -->
+    <div class="instagram-content">
+        <h3>Follow Our <span>Instagram</span></h3>
+        <a href="https://www.instagram.com/the_old_madras/" class="instagram-button" target="_blank">See Profile</a>
+    </div>
+    <div class="instagram-images">
+        <!-- Example images -->
+        <img src="src/img/image1.heic" alt="Instagram Image 1">
+        <img src="src/img/image2.heic" alt="Instagram Image 2">
+        <img src="src/img/image3.heic" alt="Instagram Image 3">
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-left">
+            <a href="#" class="footer-logo">
+                <img src="src/img/homelogo.png" alt="Logo">
+            </a>
+            <ul class="footer-links">
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#ourstory">Our Story</a></li>
+                <li><a href="#findstore">Find Store</a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <ul class="footer-links">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <div class="stay-in-touch">
+                <h4>Stay in Touch</h4>
+                <p>+91-9025361622</p>
+                <p><a href="mailto:support@cann.com">theoldmadrasgolisodaenterprises@gmail.com</a></p>
+                <p>No.5/119,Blue Beach Road,Periya Neelankarai,Chennai-600041
+                </p>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe to our newsletter</h4>
+                <form action="#" class="newsletter-form">
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
