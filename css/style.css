@@ -125,7 +125,7 @@ section {
     color: rgb(68, 68, 68);
   }
 
-/* ABOUT */
+/* OUR Story */
 
 .our-story {
     min-height: 100vh;
@@ -515,7 +515,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    flex-wrap: wrap;op
+    flex-wrap: wrap;
 }
 
 .instagram-images img {
